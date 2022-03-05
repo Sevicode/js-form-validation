@@ -5,25 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Form</title>
 </head>
 <body>
-    <form>
-        <div class="container">
+    <div class="container">
+        <form>
             <h1>Register</h1>
             <p>Please complete the form to register</p>
             <!-- remember: for always goes with the id -->
-            <label for="name-id">Name:</label>
-            <input type="text" name="name" value="Your Name" id="name-id">
-            <label for="email-id">Email:</label>
-            <input type="email" name="email" value="Your Email" id="email-id">
-            <label for="password-id">Password:</label>
-            <input type="password" name="password" id="password-id">
-            <label for="password2-id">Repeat Password</label>
-            <input type="password" name="password2" id="password2-id">
+            <div class="form-control">
+                <label for="name-id">Name:</label>
+                <input type="text" name="name" value="Your Name" id="name-id">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email-id">Email:</label>
+                <input type="email" name="email" value="Your Email" id="email-id">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password-id">Password:</label>
+                <input type="password" name="password" id="password-id">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2-id">Repeat Password</label>
+                <input type="password" name="password2" id="password2-id">
+                <small>Error Message</small>
+            </div>
             <button>Submit</button>
-        </div>
+        
     </form>
+</div>
     
 </body>
 </html>

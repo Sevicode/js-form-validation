@@ -37,7 +37,7 @@ form {
   }
   
   .form-control input {
-    border: 1px solid #f0f0f0;
+    border: 2px solid #f5d7ee;
     border-radius: 4px;
     display: block;
     width: 100%;
@@ -47,7 +47,7 @@ form {
   
   .form-control input:focus {
     outline: 0;
-    border-color: #777;
+    border-color: rgb(245, 5, 153);
   }
   
   .form-control.success input {
